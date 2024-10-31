@@ -1,0 +1,19 @@
+{
+    "name": "idlerboy/head-first-design-patterns",
+    "description": "Design patterns experiments, examples of coding in php",
+    "autoload": {
+        "psr-4": {
+            "idlerboy\\HeadFirstDesignPatterns\\": "src/",
+            "Class\\": "1.DUCK/Class/",
+            "Duck\\": "1.DUCK/Duck/",
+            "Interface\\": "1.DUCK/Interface/"
+        }
+    },
+    "authors": [
+        {
+            "name": "idlerboy",
+            "email": "asfuzbek@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -6,16 +6,28 @@ use Interface\Fly;
 use Interface\Quack;
 
 abstract class Duck {
-    protected $fly;
-    protected $quack;
+    protected $flyBehavior;
+    protected $quackBehavior;
 
     public function performFly() {
-        $this->fly->fly();
+        $this->flyBehavior->fly();
     }
 
     public function performQuack() {
-        $this->quack->quack();
+        $this->quackBehavior->quack();
     }
 
     abstract public function display();
+
+    public function swim(){
+        echo "All ducks can swim, you know!";
+    }
+
+    public function setFlyBehavior(Fly $flyBehavior){
+        $this->flyBehavior = $flyBehavior;
+    }
+
+    function setQuackBehavior(Quack $quackBehavior){
+        $this->quackBehavior = $quackBehavior;
+    }
 }

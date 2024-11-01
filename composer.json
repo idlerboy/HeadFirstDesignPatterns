@@ -6,7 +6,8 @@
             "idlerboy\\HeadFirstDesignPatterns\\": "src/",
             "Class\\": "1.DUCK/Class/",
             "Duck\\": "1.DUCK/Duck/",
-            "Interface\\": "1.DUCK/Interface/"
+            "Interface\\": "1.DUCK/Interface/",
+            "Parrot\\": "1.DUCK/Parrot/"
         }
     },
     "authors": [

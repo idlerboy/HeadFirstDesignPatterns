@@ -6,8 +6,8 @@ use Class\Quack;
 
 class RubberDuck extends Duck {
     public function __construct() {
-        $this->fly = new FlyNoWay();
-        $this->quack = new Quack();
+        $this->flyBehavior= new FlyNoWay();
+        $this->quackBehavior= new Quack();
     }
 
     public function display() {

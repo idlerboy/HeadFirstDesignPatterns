@@ -7,7 +7,7 @@ use Class\RocketFlying;
 class RocketPoweredDuck extends Duck{
     public function __construct()
     {
-        $this->fly = new RocketFlying();
+        $this->flyBeahvior = new RocketFlying();
     }
     
     public function display()

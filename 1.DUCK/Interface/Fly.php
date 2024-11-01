@@ -1,6 +1,6 @@
 <?php
 
-namespace Interface;
+namespace Interface; //Behavior in other words)))
 
 interface Fly{
     public function fly();

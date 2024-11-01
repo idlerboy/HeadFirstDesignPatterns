@@ -8,6 +8,6 @@ class Quack implements QuackInterface
 {
     public function quack()
     {
-        echo "quack";
+        echo "quack\n";
     }
 }

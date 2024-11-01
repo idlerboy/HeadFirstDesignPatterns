@@ -5,10 +5,13 @@ namespace Duck;
 use Class\MuteQuack;
 use Interface\Fly;
 
-class SimpleDuck extends Duck implements Fly{
+class SimpleDuck implements Fly{
     public function __construct()
     {
-        $this->quack = new MuteQuack();
+    }
+
+    public static function statictxt(){
+        echo "static text";
     }
 
     public function fly(){

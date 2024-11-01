@@ -7,11 +7,11 @@ use Class\Quack;
 
 class MallardDuck extends Duck {
     public function __construct() {
-        $this->fly = new FlyWithWings();
-        $this->quack = new Quack();
+        $this->flyBehavior = new FlyWithWings();
+        $this->quackBehavior = new Quack();
     }
 
     public function display() {
-        echo "I'm a Mallard Duck!\n";
+        echo "I'm a Model Duck!\n";
     }
 }

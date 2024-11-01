@@ -1,17 +1,17 @@
 <?php
 
-use Duck\Duck;
-use Interface\Fly;
-use Interface\Quack;
+namespace Parrot;
 
 abstract class Parrot{
-    public function __construct(protected $repeat, protected $fly)
+    public function __construct(protected $repeatBehavior, protected $flyBehavior)
     {
     }
 
     public function repeat(){
-        $this->repeat->repeat();
+        $this->repeatBehavior->repeat();
     }
 
-    public function
+    public function fly(){
+        $this->flyBehavior->fly();
+    }
 }
